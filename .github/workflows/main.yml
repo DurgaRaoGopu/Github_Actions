@@ -8,4 +8,5 @@ jobs:
     steps:
     - name: Creating file 
       run: echo "this is the sample content for the file" >> test.txt
-  
+           ls
+           pwd
