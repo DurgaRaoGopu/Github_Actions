@@ -1,0 +1,11 @@
+name: Sending file
+on: 
+  workflow_dispatch
+
+jobs:
+  creating_file:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Creating file 
+      run: echo "this is the sample content for the file" >> test.txt
+  
