@@ -10,3 +10,4 @@ jobs:
       run: echo "this is the sample content for the file" >> test.txt
            ls
            pwd
+           cat test.txt
