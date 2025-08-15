@@ -39,6 +39,8 @@ jobs:
       run: |
         ls
         pwd
+        echo " here is the file content"
+        cat test.txt
         
       
   
