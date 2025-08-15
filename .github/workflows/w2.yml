@@ -16,9 +16,9 @@ jobs:
     steps:
     - name: print file
       run: |
-        ls
-        cat trimu.txt
-        pwd
         ifconfig
+        ls
+        pwd
+        
         
     
