@@ -34,6 +34,12 @@ jobs:
         # Name of the artifact to download. If unspecified, all artifacts for the run are downloaded.
         name: uploading test file
         # Destination path. Supports basic tilde expansion. Defaults to $GITHUB_WORKSPACE
+
+    - name: checking the file dowloaded or not
+      run: |
+        ls
+        pwd
+        
       
   
 
